@@ -34,10 +34,10 @@ const Navbar = () => {
     justify="flex-end"
     d={{ xs: "none", md: "flex" }}
     >
-        <Text m={{r: '2em'}}>Features</Text>
-        <Text m={{r: '2em'}}>Github</Text>
-        <Text m={{r: '2em'}}>For Designer</Text>
-        <Button p="1em" bg="gray300" textColor="medium">Documentation</Button>
+        <Text m={{r: '2em'}}>About</Text>
+        <Text m={{r: '2em'}}>Work</Text>
+        <Text m={{r: '2em'}}>Social media</Text>
+        <Button p="1em" bg="gray300" textColor="medium">Contact Me</Button>
     </Div>
     <Button bg="transparent" d={{ xs: "block", md: "none" }}><Icon name="Menu" align="center"></Icon></Button>
   </Div>
